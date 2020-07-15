@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class Menu {
+public class ConsoleLineAccess {
 
     private PhoneBook book;
     private Scanner scan;
     private String nameInBook;
     private Long phoneInBook;
 
-    public Menu(PhoneBook book) {
+    public ConsoleLineAccess(PhoneBook book) {
         this.book = book;
         this.scan = new Scanner(System.in);
     }
